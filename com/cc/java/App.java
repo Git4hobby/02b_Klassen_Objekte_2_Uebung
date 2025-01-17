@@ -3,15 +3,16 @@ package com.cc.java;
 public class App {
     
     public static void main(String[] args) {
-
-        Cat cat = new Cat();
+        // Instanziierung + Wertezuweisung_1
+        Cat cat = new Cat("Paola", "Orange", 29);
+       
         // output("Blick von aussen: " + cat);
         // output("Blick von innen: " + cat.getInstanceVariable());
         
         // Werte zuweisen
-        cat.firstName = "Paola";
-        cat.furcolor = "Orange";
-        cat.age = 29;
+        // cat.firstName = "Paola";
+        // cat.furcolor = "Orange";
+        // cat.age = 29;
 
         // Werte ausgeben
         output(cat.firstName);
@@ -20,14 +21,15 @@ public class App {
         
         output("-----------------------");
 
-        Cat cat2 = new Cat();
+        // Instanziierung + Wertezuweisung_
+        Cat cat2 = new Cat("Pablo", "black", 26);
         // output("Blick von aussen: " + cat2);
         // output("Blick von innen: " + cat2.getInstanceVariable());
         
         // Werte zuweisung
-        cat2.firstName = "Pablo";
-        cat2.furcolor = "black";
-        cat2.age = 26;
+        // cat2.firstName = "Pablo";
+        // cat2.furcolor = "black";
+        // cat2.age = 26;
         
         // Werte ausgaben
         output(cat2.firstName);
