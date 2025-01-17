@@ -10,7 +10,7 @@ public class App {
         
         // Werte zuweisen
         cat.firstName = "Paola";
-        // cat.furcolor = "Orange";
+        cat.furcolor = "Orange";
         cat.age = 29;
 
         // Werte ausgeben
@@ -27,7 +27,7 @@ public class App {
         // Werte zuweisung
         cat2.firstName = "Pablo";
         cat2.furcolor = "black";
-        // cat2.age = 26;
+        cat2.age = 26;
         
         // Werte ausgaben
         output(cat2.firstName);

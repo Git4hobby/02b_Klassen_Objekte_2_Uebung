@@ -6,7 +6,11 @@ public class Cat {
     String furcolor;
     int age;
 
-
+    public Cat(String firstName, String furcolor, int age){
+        this.firstName = firstName;
+        this.furcolor = furcolor;
+        this.age = age;
+    }
    
 
 
