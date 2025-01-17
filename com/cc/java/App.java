@@ -11,13 +11,13 @@ public class App {
         
         // Werte zuweisen
         // cat.firstName = "Paola";
-        // cat.furcolor = "Orange";
+        // cat.furcolor = "purpelrain";
         // cat.age = 29;
 
-        // Werte ausgeben
-        output(cat.firstName);
-        output(cat.furcolor);
-        output(Integer.toString(cat.age));  // EXPLIZITE Typenkonvertierung
+        // Werte über Getter ausgeben
+        output(cat.getFirstName());
+        output(cat.getFurcolor());
+        output(Integer.toString(cat.getAge()));  // EXPLIZITE Typenkonvertierung
         
         output("-----------------------");
 
@@ -28,13 +28,13 @@ public class App {
         
         // Werte zuweisung
         // cat2.firstName = "Pablo";
-        // cat2.furcolor = "black";
+        // cat2.furcolor = "pink";
         // cat2.age = 26;
         
-        // Werte ausgaben
-        output(cat2.firstName);
-        output(cat2.furcolor);
-        output(Integer.toString(cat2.age)); // EXPLIZITE Typenkonvertierung
+        // Werte über Getter ausgaben
+        output(cat2.getFirstName());
+        output(cat2.getFurcolor());
+        output(Integer.toString(cat2.getAge())); // EXPLIZITE Typenkonvertierung
     }
 
   
